@@ -1,0 +1,28 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "import/extensions": "off",
+        "import/no-extraneous-dependencies": 1,
+        "no-console": 0,
+        "no-alert": 0,
+        "no-underscore-dangle": 0,
+        "no-restricted-globals": 0,
+        "linebreak-style": 0,
+        "no-dupe-else-if": "off"
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.mjs"
+            ]
+        }
+    ]
+}
